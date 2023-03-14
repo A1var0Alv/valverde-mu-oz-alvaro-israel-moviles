@@ -68,7 +68,7 @@ class ACicloVida : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        mostrarSnackBar("Destroy")
+        mostrarSnackBar("onDestroy")
     }
 
     fun mostrarSnackBar(texto:String){
